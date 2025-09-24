@@ -12,6 +12,11 @@ public class AuthenticationService extends BaseService{
 	{
 	 return postRequest(payload,BASE_PATH+"login");
 	}
+	
+	public Response ResetPassword(Object payload)
+	{
+		return postRequest(payload,BASE_PATH+"reset-password");
+	}
 
 
 }

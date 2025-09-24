@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-24T23:52:19 IST" name="Default suite" finished-at="2025-09-24T23:52:22 IST" duration-ms="2407">
+  <suite started-at="2025-09-25T01:16:05 IST" name="Default suite" finished-at="2025-09-25T01:16:08 IST" duration-ms="2434">
     <groups>
     </groups>
-    <test started-at="2025-09-24T23:52:19 IST" name="Default test" finished-at="2025-09-24T23:52:22 IST" duration-ms="2407">
-      <class name="com.api.tests.Login">
-        <test-method signature="loginTest()[pri:0, instance:com.api.tests.Login@6c64cb25]" started-at="2025-09-24T23:52:19 IST" name="loginTest" description="Verify if login API is Working..." finished-at="2025-09-24T23:52:22 IST" duration-ms="2342" status="PASS">
+    <test started-at="2025-09-25T01:16:05 IST" name="Default test" finished-at="2025-09-25T01:16:08 IST" duration-ms="2434">
+      <class name="com.api.tests.LoginResetPassword">
+        <test-method signature="ReSetPasswordTest()[pri:0, instance:com.api.tests.LoginResetPassword@2a798d51]" started-at="2025-09-25T01:16:05 IST" name="ReSetPasswordTest" description="Verify if ReSetPassword API is Working..." finished-at="2025-09-25T01:16:08 IST" duration-ms="2396" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.api.tests.Login -->
+        </test-method> <!-- ReSetPasswordTest -->
+      </class> <!-- com.api.tests.LoginResetPassword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
